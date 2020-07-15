@@ -4,7 +4,6 @@ menu:
   歸檔: /archives
   分類: /categories
   標籤: /tags
-  旅行: /tags/旅行/
   GitHub: https://github.com/GreenYo0413
   Facebook: https://www.facebook.com/profile.php?id=1286951608
   Instgram: https://www.instagram.com/greenyo0413
@@ -15,8 +14,6 @@ menu:
 subtitle:
   enable: true # 是否开启动效
   text: "We love because he first loved us."
-  text2:
-  text3:
   startDelay: 0 # 延迟时间
   typeSpeed: 200 # 打字速度
   loop: false # 是否循环
