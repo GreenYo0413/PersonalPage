@@ -93,7 +93,7 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: Nlvi
+theme: ayer
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
@@ -101,15 +101,3 @@ deploy:
   type: 'git'
   repository: http://github.com/GreenYo0413/greenyo0413.github.io.git
   branch: master
-
-theme_config:
-  theme-style: dark
-  sub:
-    facebook: 1286951608
-    twitter: 0
-    instagram: greenyo0413
-    weibo: 0
-    zhihu: 0
-    github: GreenYo0413
-    linkedin: 0
-    douban: 0
