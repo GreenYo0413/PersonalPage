@@ -1,6 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>但以理書 9-17-18</title>
+    <url>/2020/08/03/20200803%5C%20%E8%AE%80%E7%B6%93%E4%BA%AE%E5%85%89/</url>
+    <content><![CDATA[<h1 id="但以理書-9-17-18-CUV"><a href="#但以理書-9-17-18-CUV" class="headerlink" title="但以理書 9-17-18 CUV"></a>但以理書 9-17-18 CUV</h1><p>17 我 們 的 神 啊 ， 現 在 求 你 垂 聽 僕 人 的 祈 禱 懇 求 ， 為 自 己 使 臉 光 照 你 荒 涼 的 聖 所 。</p>
+<p>18 我 的 神 啊 ， 求 你 側 耳 而 聽 ， 睜 眼 而 看 ， 眷 顧 我 們 荒 涼 之 地 和 稱 為 你 名 下 的 城 。 我 們 在 你 面 前 懇 求 ， 原 不 是 因 自 己 的 義 ， 乃 因 你 的 大 憐 憫 。</p>
+<h1 id="Daniel-9-17-18-NIV"><a href="#Daniel-9-17-18-NIV" class="headerlink" title="Daniel 9-17-18 NIV"></a>Daniel 9-17-18 NIV</h1><p>17 “Now, our God, hear the prayers and petitions of your servant. For your sake, Lord, look with favor on your desolate sanctuary.</p>
+<p>18 Give ear, our God, and hear; open your eyes and see the desolation of the city that bears your Name. We do not make requests of you because we are righteous, but because of your great mercy.</p>
+<h1 id="亮光"><a href="#亮光" class="headerlink" title="亮光"></a>亮光</h1><p>要常向神求,也像神認罪, 但以理向神求，第10章的時候神就像他顯現，神只向那些跟他求的人說話，神也大蒙眷愛那些人，但以理在神面前懼怕，神也跟他說不要懼怕，所以知道在神的大能面前，只有那些在神面前求，禱告，認罪的人才能站立得住。感謝主。</p>
+]]></content>
+      <categories>
+        <category>I&#39;m a happy Christian 與穌哥相處的快樂時光</category>
+      </categories>
+      <tags>
+        <tag>但以理書</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>vim 基本指令教學</title>
     <url>/2020/08/03/vim%20%E5%9F%BA%E6%9C%AC%E6%8C%87%E4%BB%A4%E6%95%99%E5%AD%B8/</url>
     <content><![CDATA[<h1 id="Introduction"><a href="#Introduction" class="headerlink" title="Introduction"></a>Introduction</h1><p>用過vim的人大多都回不去一般的編輯器，大多原因是因為其他編輯器避免不了用滑鼠操作，熟悉vim的人也可以輕鬆的在只有terminal的環境下作開發，最近發現身邊有人出入vim，做很多事腦袋都卡住，不確定要打什麼指令才可以完自己的編輯目的，今天就打一篇vim基本操作教學，希望可以幫助未來想踏入這個編輯器的人。</p>
