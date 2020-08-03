@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>vim 基本指令教學</title>
+    <url>/2020/08/03/vim%20%E5%9F%BA%E6%9C%AC%E6%8C%87%E4%BB%A4%E6%95%99%E5%AD%B8/</url>
+    <content><![CDATA[<h1 id="Introduction"><a href="#Introduction" class="headerlink" title="Introduction"></a>Introduction</h1><p>用過vim的人大多都回不去一般的編輯器，大多原因是因為其他編輯器避免不了用滑鼠操作，熟悉vim的人也可以輕鬆的在只有terminal的環境下作開發，最近發現身邊有人出入vim，做很多事腦袋都卡住，不確定要打什麼指令才可以完自己的編輯目的，今天就打一篇vim基本操作教學，希望可以幫助未來想踏入這個編輯器的人。</p>
+<h1 id="指令介紹"><a href="#指令介紹" class="headerlink" title="指令介紹"></a>指令介紹</h1><h2 id="Normal-mode-Insert-mode"><a href="#Normal-mode-Insert-mode" class="headerlink" title="Normal mode/Insert mode"></a>Normal mode/Insert mode</h2><p>vim 有一個大特色，就是他將編輯狀態分為許多模式，最常用的模式就是Normal mode和Insert mode，通常在觀看資料時會保持自己是Normal mode，方便user快速瀏覽資料並且跳到自己想編輯的區塊，編輯完成後再跳回Normal mode，接下來介紹常用的指令。</p>
+<ul>
+<li><p><code>i</code><br>這是初學vim的人最常用的指令，用於從Normal mode進入Insert mode，進入Insert mode的位置會是在當下指標左方。</p>
+</li>
+<li><p><code>a</code><br>也是進入Insert mode的另一種方式，不同於<code>i</code>的地方在於，位置在當下指標的右方。</p>
+</li>
+<li><p>強化版指令<br>個人認為vim的迷人之處在於你可以透過指令之間的組合嘗試出一些特殊的行為，快捷的彼此之間都具有共通的結合或強化的關係，像是<code>A</code>即是<code>a</code>的強化版一樣話進入Insert mode，但是位置不只是右方，而是整行的最右方，所以你也可以合理的嘗試出<code>I</code>即是<code>i</code>的強化板，位置則是在整行的最左方。</p>
+</li>
+<li><p><code>x</code><br>向後刪除一個文字</p>
+</li>
+<li><p>改裝版指令<br><code>X</code> 並不是強化版，是向前刪除文字。</p>
+</li>
+<li><p><code>p</code> (貼上)</p>
+</li>
+</ul>
+<h2 id="接下來介紹的指令不同於前面的指令鍵盤一按下去立即生效，這些指令後面或之前會接上一個範圍的敘述，代表對此指令的變形。"><a href="#接下來介紹的指令不同於前面的指令鍵盤一按下去立即生效，這些指令後面或之前會接上一個範圍的敘述，代表對此指令的變形。" class="headerlink" title="接下來介紹的指令不同於前面的指令鍵盤一按下去立即生效，這些指令後面或之前會接上一個範圍的敘述，代表對此指令的變形。"></a>接下來介紹的指令不同於前面的指令鍵盤一按下去立即生效，這些指令後面或之前會接上一個範圍的敘述，代表對此指令的變形。</h2><ul>
+<li><code>y</code> (複製)</li>
+<li><code>d</code> (剪下)</li>
+<li><code>v</code> (選取)</li>
+</ul>
+<ol>
+<li><code>w</code> 變形<br><code>w</code> 可以翻作 “word” 搭配前面的指令即是<code>yw</code>, <code>dw</code> 和 <code>vw</code> 意思就是(複製/剪下/選取) “從你的游標以後到這個文字結束”的這個文字</li>
+<li><code>iw</code> 變形<br><code>iw</code> 可以翻作 “one word” 搭配前面的指令即是<code>yiw</code>, <code>diw</code> 和 <code>viw</code> 意思就是(複製/剪下/選取)當下這個文字</li>
+<li>大寫變形<br>指令即是<code>Y</code>, <code>D</code> 意思就是(複製/剪下)當下游標到這行結束</li>
+<li>整行變形<br>指令即是<code>yy</code>, <code>dd</code>, <code>V</code>意思就是(複製/剪下/選取)當下這行</li>
+</ol>
+<h1 id="結論"><a href="#結論" class="headerlink" title="結論"></a>結論</h1><p>vim 常用的指令真的很多，教學寫都寫不完，熟的指令越多編輯越快速。未來還會發教學教大家了解 vim 暫存器應用，可以讓user在複製貼上時可以有多個剪貼簿使用，另外還有快速查詢/取代，以及plugin的安裝教學，謝謝大家。</p>
+]]></content>
+      <categories>
+        <category>Engineer 工程師手札</category>
+      </categories>
+      <tags>
+        <tag>vim</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>部落格上線啦, 開心</title>
+    <url>/2020/07/15/first_post/</url>
+    <content><![CDATA[<h1 id="部落格上線啦-開心"><a href="#部落格上線啦-開心" class="headerlink" title="部落格上線啦, 開心"></a>部落格上線啦, 開心</h1><p>阿青的小夥伴們大家好,我從研究所時就夢想要架設專屬自己的Blog，<br>今天2020年總算上線啦。在這裡我會與大家分享我的</p>
+<ul>
+<li>工程師經驗日常</li>
+<li>教會生活</li>
+<li>日常出遊</li>
+<li>Bass手筆記</li>
+</ul>
+<p>希望未來可以養成紀錄的習慣<br>請大家多多指教，謝謝。<br>接下來的文章，我也會跟大家分享這個Blog是如何架設起來的～</p>
+]]></content>
+      <categories>
+        <category>Engineer 工程師手札</category>
+        <category>Bass 貝斯</category>
+        <category>Life 日常生活</category>
+        <category>I&#39;m a happy Christian 與穌哥相處的快樂時光</category>
+      </categories>
+  </entry>
+</search>
