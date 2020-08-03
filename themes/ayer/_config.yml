@@ -22,7 +22,7 @@ subtitle:
 
 # 网站图标和侧边栏logo
 favicon: /page_img/blog.svg
-logo: /images/ayer-side.svg
+logo: /page_img/logo.svg
 
 # 封面配置
 # enable-是否启用封面；path-封面背景图；logo-封面logo
@@ -76,9 +76,10 @@ reward_type: 0
 # 打赏wording
 reward_wording: "請我喝杯飲料吧～"
 # 支付宝二维码图片地址，跟你设置logo的方式一样。比如：/images/alipay.jpg
-alipay: https://cdn.jsdelivr.net/gh/Shen-Yu/cdn/img/alipay.jpg
+alipay: 
 # 微信二维码图片地址
-weixin: https://cdn.jsdelivr.net/gh/Shen-Yu/cdn/img/wechat.jpg
+weixin: 
+icachpay: /page_img/icachpay.jpg
 
 # 版权声明
 # 版权声明type设定：0-关闭版权声明； 1-文章对应的md文件里有copyright: true属性，才有版权声明； 2-所有文章均有版权声明

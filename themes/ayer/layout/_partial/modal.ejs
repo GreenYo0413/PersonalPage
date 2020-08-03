@@ -17,5 +17,11 @@
       <span class="reward-type">微信</span>
     </div>
     <% } %>
+    <% if(theme.icashpay) {%>
+    <div class="reward-item">
+      <img class="reward-img" src="<%- url_for(theme.icashpay) %>">
+      <span class="reward-type">icash pay</span>
+    </div>
+    <% } %>
   </div>
 </div>
